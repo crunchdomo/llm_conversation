@@ -1,0 +1,7 @@
+.venv/
+dist/
+__pycache__/
+# Direnv
+.envrc
+# Neovim project-specific config
+.nvim.lua

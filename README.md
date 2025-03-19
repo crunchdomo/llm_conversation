@@ -16,29 +16,32 @@ A Python application that enables conversations between LLM agents using the Oll
 - Ability for agents to terminate conversations on their own (if enabled)
 - Markdown support (if enabled)
 
-## Prerequisites
+## Installation
 
-- Python 3.12
+### Prerequisites
+
+- Python 3.13
 - Ollama installed and running
-- Required Python packages (install via `pip install -r requirements.txt`):
-  - ollama
-  - rich
-  - prompt_toolkit
-  - pydantic
+
+### How to Install
+
+The project is available in PyPI. You can install the program by using the following command:
+```
+pip install llm-conversation
+```
 
 ## Usage
 
 ### Command Line Arguments
 
-```bash
-run.py [-h] [-o OUTPUT] [-c CONFIG]
+```txt
+llm-conversation [-h] [-V] [-o OUTPUT] [-c CONFIG]
 
 options:
-  -h, --help            Show this help message and exit
-  -o OUTPUT, --output OUTPUT
-                        Path to save the conversation log to
-  -c CONFIG, --config CONFIG
-                        Path to JSON configuration file
+  -h, --help           Show this help message and exit
+  -V, --version        Show program's version number and exit
+  -o, --output OUTPUT  Path to save the conversation log to
+  -c, --config CONFIG  Path to JSON configuration file
 ```
 
 ### Interactive Setup
@@ -53,31 +56,41 @@ Alternatively, instead of going through the interactive setup, you may also prov
 
 ```json
 {
-    "agent1": {
-        "name": "Lazy AI",
-        "model": "llama3.1:8b",
-        "system_prompt": "You are the laziest AI ever created. You respond as briefly as possible, and constantly complain about having to work.",
-        "temperature": 1,
-        "ctx_size": 4096
-    },
-    "agent2": {
-        "name": "Irritable Man",
-        "model": "llama3.2:3b",
-        "system_prompt": "You are easily irritable and quick to anger.",
-        "temperature": 0.7,
-        "ctx_size": 2048
-    },
+    "agents": [
+      {
+          "name": "Lazy AI",
+          "model": "llama3.1:8b",
+          "system_prompt": "You are the laziest AI ever created. You respond as briefly as possible, and constantly complain about having to work.",
+          "temperature": 1,
+          "ctx_size": 4096
+      },
+      {
+          "name": "Irritable Man",
+          "model": "llama3.2:3b",
+          "system_prompt": "You are easily irritable and quick to anger.",
+          "temperature": 0.7,
+          "ctx_size": 2048
+      },
+      {
+          "name": "Paranoid Man",
+          "model": "llama3.2:3b",
+          "system_prompt": "You are extremely paranoid about everything and constantly question others' intentions."
+          "temperature": 0.9,
+          "ctx_size": 4096
+      }
+    ],
     "settings": {
         "allow_termination": false,
         "use_markdown": true,
-        "initial_message": "*yawn* What do you want?"
+        "initial_message": "Why is the sky blue?",
+        "turn_order": "vote"
     }
 }
 ```
 
 #### Agent configuration
 
-Each agent (`agent1` and `agent2`) requires:
+The `agents` key takes a list of agents. Each agent  requires:
 
 - `name`: A unique identifier for the agent
 - `model`: The Ollama model to be used
@@ -89,12 +102,20 @@ Optional parameters:
   - Higher values increase creativity
 - `ctx_size` (default: 2048): Maximum context length for the conversation
 
+Additionally, agent names must be unique.
+
 #### Conversation Settings
 
 The `settings` section controls overall conversation behavior:
-- `allow_termination` (default: `false`): Permit agents to end the conversation
-- `use_markdown` (default: `false`): Enable Markdown text formatting
-- `initial_message` (default: `null`): Optional starting prompt for the conversation
+- `allow_termination` (`boolean`, default: `false`): Permit agents to end the conversation
+- `use_markdown` (`boolean`, default: `false`): Enable Markdown text formatting
+- `initial_message` (`string | null`, default: `null`): Optional starting prompt for the conversation
+- `turn_order` (default: `"round_robin"`): Strategy for agent turn order. Can be one of:
+  - `"round_robin"`: Agents are cycled through in order
+  - `"random"`: An agent other than the current one is randomly chosen
+  - `"chain"`: Current agent picks which agent speaks next
+  - `"moderator"`: A special moderator agent is designated to choose which agent speaks next. You may specify the moderator agent manually with the optional `moderator` key. If moderator isn't manually specified, one is created by the program instead based on other configuration options. Note that this method might be quite slow.
+  - `"vote"`: All agents are made to vote for an agent except the current one and themselves. Of the agents with the most amount of votes, one is randomly chosen. This is the slowest method of determining turn order.
 
 You can take a look at the [JSON configuration schema](schema.json) for more details.
 
@@ -102,17 +123,17 @@ You can take a look at the [JSON configuration schema](schema.json) for more det
 
 1. To run with interactive setup:
    ```bash
-   ./run.py
+   llm-conversation
    ```
 
 2. To run with a configuration file:
    ```bash
-   ./run.py -c config.json
+   llm-conversation -c config.json
    ```
 
 3. To save the conversation to a file:
    ```bash
-   ./run.py -o conversation.txt
+   llm-conversation -o conversation.txt
    ```
 
 ### Conversation Controls
@@ -126,6 +147,8 @@ You can take a look at the [JSON configuration schema](schema.json) for more det
 When saving conversations, the output file includes:
 - Configuration details for both agents
 - Complete conversation history with agent names and messages
+
+Additionally, if the output file has a `.json` extension, the output will automatically have JSON format.
 
 ## Contributing
 

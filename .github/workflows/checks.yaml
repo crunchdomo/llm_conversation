@@ -1,4 +1,4 @@
-name: Validate Schema
+name: Formatting, Linting and Type Checking
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  validate-schema:
+  check-code:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,12 +32,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install poetry
-          poetry install
+          poetry install --with dev
 
-      - name: Generate schema and check for changes
-        run: |
-          poetry run python -m scripts.generate_schema > schema.tmp.json
-          if ! cmp -s schema.tmp.json schema.json; then
-            echo "❌ schema.json is outdated. Run scripts/generate_schema.py and commit the updated file."
-            exit 1
-          fi
+      - name: Run Ruff formatting check
+        run: poetry run ruff format --check
+
+      - name: Run Ruff linter
+        run: poetry run ruff check
+
+      - name: Run MyPy type-checking
+        run: poetry run mypy

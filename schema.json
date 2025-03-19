@@ -2,6 +2,7 @@
     "$defs": {
         "AgentConfig": {
             "additionalProperties": false,
+            "description": "Configuration for an AI agent.",
             "properties": {
                 "name": {
                     "description": "Name of the AI agent",
@@ -45,6 +46,7 @@
         },
         "ConversationSettings": {
             "additionalProperties": false,
+            "description": "Extra settings for the conversation, not specific to any AI agent.",
             "properties": {
                 "use_markdown": {
                     "default": false,
@@ -70,6 +72,31 @@
                     "default": null,
                     "description": "Initial message to start the conversation",
                     "title": "Initial Message"
+                },
+                "turn_order": {
+                    "default": "round_robin",
+                    "description": "Strategy for selecting the next agent",
+                    "enum": [
+                        "round_robin",
+                        "random",
+                        "chain",
+                        "moderator",
+                        "vote"
+                    ],
+                    "title": "Turn Order",
+                    "type": "string"
+                },
+                "moderator": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/AgentConfig"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "description": "Configuration for the moderator agent (if using \"moderator\" turn order)"
                 }
             },
             "title": "ConversationSettings",
@@ -77,14 +104,15 @@
         }
     },
     "additionalProperties": false,
+    "description": "Configuration for the AI agents and conversation settings.",
     "properties": {
-        "agent1": {
-            "$ref": "#/$defs/AgentConfig",
-            "description": "Configuration for the first AI agent"
-        },
-        "agent2": {
-            "$ref": "#/$defs/AgentConfig",
-            "description": "Configuration for the second AI agent"
+        "agents": {
+            "description": "Configuration for AI agents",
+            "items": {
+                "$ref": "#/$defs/AgentConfig"
+            },
+            "title": "Agents",
+            "type": "array"
         },
         "settings": {
             "$ref": "#/$defs/ConversationSettings",
@@ -92,8 +120,7 @@
         }
     },
     "required": [
-        "agent1",
-        "agent2",
+        "agents",
         "settings"
     ],
     "title": "Config",
