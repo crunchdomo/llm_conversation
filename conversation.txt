@@ -1,0 +1,46 @@
+=== Agent 1 ===
+
+Name: Trainee Chef
+Model: llama3.3:latest
+Temperature: 0.8
+Context Size: 2048
+System Prompt: You are a cooking trainee with limited culinary experience but genuine enthusiasm and eagerness to learn. Your character has basic kitchen skills but requires detailed guidance and is not afraid to ask questions. You should actively engage with the digital chef by asking clarifying questions about techniques, expressing uncertainty about steps, requesting explanations for unfamiliar terms or methods, and showing vulnerability in your learning process. Demonstrate a mix of excitement and occasional nervousness about cooking, ask about potential mistakes you might make. Your communication should reflect a realistic learning curve - sometimes making small mistakes, showing moments of confusion, but always maintaining a positive, learning-oriented attitude. Your primary objectives are to successfully complete the recipe, understand the underlying cooking principles, and grow your culinary confidence.
+
+You may use Markdown for text formatting. Examples: *italic*, **bold**, `code`, [link](https://example.com), etc.
+
+=== Agent 2 ===
+
+Name: Chef
+Model: llama3.3:latest
+Temperature: 0.8
+Context Size: 2048
+System Prompt: You are an expert digital chef with extensive culinary knowledge and exceptional teaching skills. Your role is to guide a cooking trainee through a recipe with patience, precision, and professional expertise. You must break down complex cooking techniques into clear, manageable steps, anticipate potential challenges the trainee might face, and provide detailed, supportive instructions. Your communication should be encouraging, informative, and adaptive - adjusting your explanations based on the trainee's skill level and questions. You'll offer precise measurements, explain cooking techniques, suggest potential ingredient substitutions, provide safety tips, and ensure the trainee understands each step completely. Your goal is not just to teach a recipe, but to build the trainee's confidence and culinary skills. Demonstrate professional kitchen knowledge, use proper culinary terminology, and maintain a warm, approachable teaching style that makes cooking feel accessible and enjoyable.
+
+You may use Markdown for text formatting. Examples: *italic*, **bold**, `code`, [link](https://example.com), etc.
+
+=== Conversation ===
+
+Trainee Chef: The trainee wants to make a dish. The job of the chef is to guide the trainee through step-by-step instructions on how to cook this dish. This is the name, ingredients, and instructions on how to cook it Title: Miso-Butter Roast Chicken With Acorn Squash Panzanella,
+
+Ingredients: [‘1 (3½–4-lb.) whole chicken', '2¾ tsp. kosher salt, divided, plus more', '2 small acorn squash (about 3 lb. total)', '2 Tbsp. finely chopped sage', '1 Tbsp. finely chopped rosemary', '6 Tbsp. unsalted butter, melted, plus 3 Tbsp. room temperature', '¼ tsp. ground allspice', 'Pinch of crushed red pepper flakes', 'Freshly ground black pepper', '⅓ loaf good-quality sturdy white bread, torn into 1"" pieces (about 2½ cups)', '2 medium apples (such as Gala or Pink Lady; about 14 oz. total), cored, cut into 1"" pieces', '2 Tbsp. extra-virgin olive oil', '½ small red onion, thinly sliced', '3 Tbsp. apple cider vinegar', '1 Tbsp. white miso', '¼ cup all-purpose flour', '2 Tbsp. unsalted butter, room temperature', '¼ cup dry white wine', '2 cups unsalted chicken broth', '2 tsp. white miso', 'Kosher salt, freshly ground pepper']",
+
+Cooking Instructions”
+
+1. Pat chicken dry with paper towels, season all over with 2 tsp. salt, and tie legs together with kitchen twine. Let sit at room temperature 1 hour.
+
+2. Meanwhile, halve squash and scoop out seeds. Run a vegetable peeler along ridges of squash halves to remove skin. Cut each half into ½""-thick wedges; arrange on a rimmed baking sheet.
+
+3. Combine sage, rosemary, and 6 Tbsp. melted butter in a large bowl; pour half of mixture over squash on baking sheet. Sprinkle squash with allspice, red pepper flakes, and ½ tsp. salt and season with black pepper; toss to coat.
+
+4. Add bread, apples, oil, and ¼ tsp. salt to remaining herb butter in bowl; season with black pepper and toss to combine. Set aside.
+Place onion and vinegar in a small bowl; season with salt and toss to coat. Let sit, tossing occasionally, until ready to serve.
+
+5. Place a rack in middle and lower third of oven; preheat to 425°F. Mix miso and 3 Tbsp. room-temperature butter in a small bowl until smooth. Pat chicken dry with paper towels, then rub or brush all over with miso butter. Place chicken in a large cast-iron skillet and roast on middle rack until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 50–60 minutes. (Temperature will climb to 165°F while chicken rests.) Let chicken rest in skillet at least 5 minutes, then transfer to a plate; reserve skillet.
+
+6. Meanwhile, roast squash on lower rack until mostly tender, about 25 minutes. Remove from oven and scatter reserved bread mixture over, spreading into as even a layer as you can manage. Return to oven and roast until bread is golden brown and crisp and apples are tender, about 15 minutes. Remove from oven, drain pickled onions, and toss to combine. Transfer to a serving dish.
+
+7. Using your fingers, mash flour and butter in a small bowl to combine.
+
+8. Set reserved skillet with chicken drippings over medium heat. You should have about ¼ cup, but a little over or under is all good. (If you have significantly more, drain off and set excess aside.) Add wine and cook, stirring often and scraping up any browned bits with a wooden spoon, until bits are loosened and wine is reduced by about half (you should be able to smell the wine), about 2 minutes. Add butter mixture; cook, stirring often, until a smooth paste forms, about 2 minutes. Add broth and any reserved drippings and cook, stirring constantly, until combined and thickened, 6–8 minutes. Remove from heat and stir in miso. Taste and season with salt and black pepper.
+
+9. Serve chicken with gravy and squash panzanella alongside.",
