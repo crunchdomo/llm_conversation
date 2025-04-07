@@ -47,7 +47,7 @@ def calculate_bertscore(reference, candidate, model_name='bert-base-uncased'):
     return cosine_similarity(ref_embedding, cand_embedding)[0][0]
 
 # Specify the path to your text file
-file_path = "paste.txt"  # Replace with the actual path to your text file
+file_path = "cleaned_conversation_test.txt"  # Replace with the actual path to your text file
 
 # Read the conversation text from the file
 try:
@@ -61,17 +61,15 @@ except Exception as e:
     exit()
 
 # Define Your Reference Output
-reference_output = """What a delicious-sounding dish! I'm excited to guide you through the preparation of Miso-Butter Roast Chicken With Acorn Squash Panzanella. Let's get started!
-
-First, we need to pat the chicken dry with paper towels and season it all over with 2 tsp. kosher salt. You can use your hands or a spatula to gently massage the salt into the meat.
-
-Next, tie the legs together with kitchen twine. This will help keep the chicken compact during roasting.
-
-Finally, let the chicken sit at room temperature for about an hour. This step is important as it allows the skin to dry slightly and helps the seasonings penetrate deeper into the meat.
-
-As you're doing this, I want to emphasize the importance of using a sharp knife when patting the chicken dry. If the blade is dull, it can tear the skin instead of simply removing excess moisture.
-
-How's that going? Do you have any questions about seasoning the chicken or tying the legs together?"""  # Replace with your ground truth
+reference_output = """Meanwhile, halve squash and scoop out seeds. Run a vegetable peeler along ridges of squash halves to remove skin. Cut each half into ½""-thick wedges; arrange on a rimmed baking sheet.
+Combine sage, rosemary, and 6 Tbsp. melted butter in a large bowl; pour half of mixture over squash on baking sheet. Sprinkle squash with allspice, red pepper flakes, and ½ tsp. salt and season with black pepper; toss to coat.
+Add bread, apples, oil, and ¼ tsp. salt to remaining herb butter in bowl; season with black pepper and toss to combine. Set aside.
+Place onion and vinegar in a small bowl; season with salt and toss to coat. Let sit, tossing occasionally, until ready to serve.
+Place a rack in middle and lower third of oven; preheat to 425°F. Mix miso and 3 Tbsp. room-temperature butter in a small bowl until smooth. Pat chicken dry with paper towels, then rub or brush all over with miso butter. Place chicken in a large cast-iron skillet and roast on middle rack until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 50–60 minutes. (Temperature will climb to 165°F while chicken rests.) Let chicken rest in skillet at least 5 minutes, then transfer to a plate; reserve skillet.
+Meanwhile, roast squash on lower rack until mostly tender, about 25 minutes. Remove from oven and scatter reserved bread mixture over, spreading into as even a layer as you can manage. Return to oven and roast until bread is golden brown and crisp and apples are tender, about 15 minutes. Remove from oven, drain pickled onions, and toss to combine. Transfer to a serving dish.
+Using your fingers, mash flour and butter in a small bowl to combine.
+Set reserved skillet with chicken drippings over medium heat. You should have about ¼ cup, but a little over or under is all good. (If you have significantly more, drain off and set excess aside.) Add wine and cook, stirring often and scraping up any browned bits with a wooden spoon, until bits are loosened and wine is reduced by about half (you should be able to smell the wine), about 2 minutes. Add butter mixture; cook, stirring often, until a smooth paste forms, about 2 minutes. Add broth and any reserved drippings and cook, stirring constantly, until combined and thickened, 6–8 minutes. Remove from heat and stir in miso. Taste and season with salt and black pepper.
+Serve chicken with gravy and squash panzanella alongside."""  # Replace with your ground truth
 
 # Extract the first Master Chef response
 master_chef_output = extract_first_master_chef_response(conversation_text)
