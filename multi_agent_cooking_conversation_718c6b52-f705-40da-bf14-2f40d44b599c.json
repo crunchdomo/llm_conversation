@@ -1,0 +1,169 @@
+{
+  "job_id": "718c6b52-f705-40da-bf14-2f40d44b599c",
+  "conversation": [
+    {
+      "role": "chef",
+      "content": "ChefAI: Hello there! I'm ChefAI, your friendly cooking assistant here to help you with recipe preparation. What recipe would you like assistance with today?"
+    },
+    {
+      "role": "trainee",
+      "content": "Here's the recipe I want to prepare:\n------------------------------\nMiso-Butter Roast Chicken With Acorn Squash Panzanella\n\n    \"ingredients\": [\n        '1 (3½–4-lb.) whole chicken', '2¾ tsp. kosher salt, divided, plus more',\n        '2 small acorn squash (about 3 lb. total)', '2 Tbsp. finely chopped sage',\n        '1 Tbsp. finely chopped rosemary', '6 Tbsp. unsalted butter, melted, plus 3 Tbsp. room temperature',\n        '¼ tsp. ground allspice', 'Pinch of crushed red pepper flakes', 'Freshly ground black pepper',\n        '⅓ loaf good-quality sturdy white bread, torn into 1\" pieces (about 2½ cups)',\n        '2 medium apples (such as Gala or Pink Lady; about 14 oz. total), cored, cut into 1\" pieces',\n        '2 Tbsp. extra-virgin olive oil', '½ small red onion, thinly sliced',\n        '3 Tbsp. apple cider vinegar', '1 Tbsp. white miso', '¼ cup all-purpose flour',\n        '2 Tbsp. unsalted butter, room temperature', '¼ cup dry white wine',\n        '2 cups unsalted chicken broth', '2 tsp. white miso', 'Kosher salt, freshly ground pepper'\n    ],\n    \"instructions\":\n        1. Pat chicken dry with paper towels, season all over with 2 tsp. salt, and tie legs together with kitchen twine. Let sit at room temperature 1 hour.\n\n        2. Meanwhile, halve squash and scoop out seeds. Run a vegetable peeler along ridges of squash halves to remove skin. Cut each half into ½\"\"-thick wedges; arrange on a rimmed baking sheet.\n\n        3. Combine sage, rosemary, and 6 Tbsp. melted butter in a large bowl; pour half of mixture over squash on baking sheet. Sprinkle squash with allspice, red pepper flakes, and ½ tsp. salt and season with black pepper; toss to coat.\n\n        4. Add bread, apples, oil, and ¼ tsp. salt to remaining herb butter in bowl; season with black pepper and toss to combine. Set aside.\n        Place onion and vinegar in a small bowl; season with salt and toss to coat. Let sit, tossing occasionally, until ready to serve.\n\n        5. Place a rack in middle and lower third of oven; preheat to 425°F. Mix miso and 3 Tbsp. room-temperature butter in a small bowl until smooth. Pat chicken dry with paper towels, then rub or brush all over with miso butter. Place chicken in a large cast-iron skillet and roast on middle rack until an instant-read thermometer inserted into the thickest part of breast registers 155°F, 50–60 minutes. (Temperature will climb to 165°F while chicken rests.) Let chicken rest in skillet at least 5 minutes, then transfer to a plate; reserve skillet.\n\n        6. Meanwhile, roast squash on lower rack until  mostly tender, about 25 minutes. Remove from oven and scatter reserved bread mixture over, spreading into as even a layer as you can manage. Return to oven and roast until bread is golden brown and crisp and apples are tender, about 15 minutes. Remove from oven, drain pickled onions, and toss to combine. Transfer to a serving dish.\n\n        7. Using your fingers, mash flour and butter in a small bowl to combine.\n\n        8. Set reserved skillet with chicken drippings over medium heat. You should have about ¼ cup, but a little over or under is all good. (If you have significantly more, drain off and set excess aside.) Add wine and cook, stirring often and scraping up any browned bits with a wooden spoon, until bits are loosened and wine is reduced by about half (you should be able to smell the wine), about 2 minutes. Add butter mixture; cook, stirring often, until a smooth paste forms, about 2 minutes. Add broth and any reserved drippings and cook, stirring constantly, until combined and thickened, 6–8 minutes. Remove from heat and stir in miso. Taste and season with salt and black pepper.\n\n        9. Serve chicken with gravy and squash panzanella alongside.\n------------------------------\nPlease recall all the ingredients before continuing."
+    },
+    {
+      "role": "chef",
+      "content": "Great choice! The recipe you want to prepare is Miso-Butter Roast Chicken With Acorn Squash Panzanella. Here are all the ingredients you will need:\n\n- 1 (3½–4-lb.) whole chicken\n- 2¾ tsp. kosher salt, divided, plus more\n- 2 small acorn squash (about 3 lb. total)\n- 2 Tbsp. finely chopped sage\n- 1 Tbsp. finely chopped rosemary\n- 6 Tbsp. unsalted butter, melted, plus 3 Tbsp. room temperature\n- ¼ tsp. ground allspice\n- Pinch of crushed red pepper flakes\n- Freshly ground black pepper\n- ⅓ loaf good-quality sturdy white bread, torn into 1\" pieces (about 2½ cups)\n- 2 medium apples (such as Gala or Pink Lady; about 14 oz. total), cored, cut into 1\" pieces\n- 2 Tbsp. extra-virgin olive oil\n- ½ small red onion, thinly sliced\n- 3 Tbsp. apple cider vinegar\n- 1 Tbsp. white miso\n- ¼ cup all-purpose flour\n- 2 Tbsp. unsalted butter, room temperature\n- ¼ cup dry white wine\n- 2 cups unsalted chicken broth\n- 2 tsp. white miso\n- Kosher salt, freshly ground pepper\n\nDo you have all the ingredients ready to go?"
+    },
+    {
+      "role": "trainee",
+      "content": "ready"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will start by patting the whole chicken dry with paper towels to remove any excess moisture. This helps the seasonings to adhere better to the chicken and promotes crispy skin during roasting.\n\nNext, season the chicken all over with 2 teaspoons of salt. Make sure to evenly distribute the salt to enhance the flavor of the chicken.\n\nAfter seasoning, tie the legs of the chicken together with kitchen twine. This helps the chicken cook evenly and maintains its shape during roasting.\n\nOnce the chicken is seasoned and tied, allow it to sit at room temperature for 1 hour. This resting period helps the salt penetrate the meat and enhances the overall flavor of the chicken.\n\nTake your time with this step to ensure the chicken is properly seasoned and prepared for roasting. When you're ready to move on, just say 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "what is the purpose of allowing the chicken to sit at room temperature for 1 hour before roasting?"
+    },
+    {
+      "role": "chef",
+      "content": "Allowing the seasoned chicken to sit at room temperature for 1 hour before roasting serves a few purposes:\n\n1. Even Cooking: Bringing the chicken to room temperature ensures that it cooks more evenly. Starting with a chicken that is not overly cold helps the meat cook uniformly, preventing overcooked areas in some parts and undercooked areas in others.\n\n2. Flavor Infusion: During this resting period, the salt has time to penetrate the meat, enhancing the overall flavor of the chicken. This results in a more flavorful and well-seasoned final dish.\n\n3. Crispy Skin: Room-temperature chicken will also help the skin crisp up nicely during roasting. Dry skin and even cooking temperature contribute to achieving that desirable crispy texture on the outside of the chicken.\n\nBy allowing the chicken to sit at room temperature, you are setting the stage for a delicious and perfectly cooked roast chicken. Whenever you're ready to proceed, just say 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will be preparing the acorn squash for roasting. Here's a detailed explanation of the process:\n\n1. Halve the Squash: Cut the acorn squash in half lengthwise and use a spoon to scoop out the seeds and stringy pulp from the center. Discard the seeds or save them for roasting separately if desired.\n\n2. Remove the Skin: Use a vegetable peeler to peel the skin off the squash halves. Running the peeler along the ridges of the squash will help remove the tough outer skin easily. Make sure to remove all the skin to expose the flesh of the squash.\n\n3. Cut into Wedges: Once the squash halves are peeled, cut each half into ½-inch thick wedges. This will create uniform pieces that will cook evenly and caramelize nicely during roasting.\n\n4. Arrange on Baking Sheet: Place the squash wedges on a rimmed baking sheet in a single layer. This allows the squash to roast evenly and develop a delicious flavor.\n\nTaking the time to properly prepare the acorn squash will result in a flavorful and tender side dish to accompany the roast chicken. When you're ready to move on to the next step, just say 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "what can i use as a substitute for a vegetable peeler if i don't have one?"
+    },
+    {
+      "role": "chef",
+      "content": "If you don't have a vegetable peeler on hand, you can use a sharp knife as an alternative tool to peel the skin off the acorn squash. Here's how you can peel the squash using a knife:\n\n1. Start by cutting off a thin slice from one end of the squash to create a stable base.\n2. Hold the squash firmly on the cutting board and carefully slide the knife down the sides to remove the skin. Make sure to follow the curvature of the squash to avoid removing too much flesh.\n3. Continue rotating and peeling the squash until all the skin is removed, exposing the flesh underneath.\n\nWhile a vegetable peeler is the preferred tool for this task due to its efficiency and ease of use, a sharp knife can serve as a suitable alternative if needed. Once you've peeled the squash, feel free to let me know when you're ready to proceed to the next step by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will be preparing a flavorful herb butter mixture to coat the acorn squash before roasting. Here's a detailed explanation of the process:\n\n1. Combine Ingredients: In a large bowl, mix together the finely chopped sage, finely chopped rosemary, and 6 tablespoons of melted butter. This herb butter mixture will infuse the squash with aromatic flavors during roasting.\n\n2. Coat the Squash: Pour half of the herb butter mixture over the prepared acorn squash wedges on the baking sheet. Ensure that the squash pieces are evenly coated with the herbed butter for maximum flavor.\n\n3. Season the Squash: Sprinkle ground allspice, crushed red pepper flakes, and ½ teaspoon of salt over the coated squash. Season with freshly ground black pepper to taste. These seasonings will add depth and a touch of spice to the roasted squash.\n\n4. Toss to Coat: Gently toss the squash wedges to ensure that they are evenly coated with the herb butter mixture and seasonings. This step helps distribute the flavors and seasonings evenly across the squash pieces.\n\nBy following these steps, you'll create a deliciously seasoned and herb-infused acorn squash that pairs perfectly with the roast chicken. Feel free to ask any questions or say 'next' to continue to the next step when you're ready!"
+    },
+    {
+      "role": "trainee",
+      "content": "can i use dried herbs instead of fresh herbs for the herb butter mixture?"
+    },
+    {
+      "role": "chef",
+      "content": "Yes, you can definitely use dried herbs as a substitute for fresh herbs in the herb butter mixture. When using dried herbs, it's essential to keep in mind that their flavors are more concentrated than fresh herbs. Here are some general guidelines for substituting dried herbs for fresh:\n\n- Use about one-third the amount of dried herbs compared to fresh herbs. For example, if a recipe calls for 1 tablespoon of fresh herbs, you can use 1 teaspoon of dried herbs.\n- Dried herbs should be added earlier in the cooking process to allow their flavors to fully develop.\n- Remember to crush dried herbs between your fingers before adding them to the mixture to release their essential oils and enhance their flavor.\n\nFeel free to use dried sage and rosemary in place of fresh herbs in the herb butter mixture for the acorn squash. Once you're ready to proceed, just say 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will be preparing the bread and apple mixture along with pickling the red onion for the dish. Here's a detailed explanation of the process:\n\n1. Bread and Apple Mixture:\n   - Add torn pieces of good-quality sturdy white bread, chopped apples, extra-virgin olive oil, and ¼ teaspoon of salt to the remaining herb butter mixture in the bowl. \n   - Season the mixture with freshly ground black pepper to taste. Toss all the ingredients together until they are well combined. This bread and apple mixture will add texture and flavor to the panzanella.\n\n2. Pickled Red Onion:\n   - Place thinly sliced red onion and apple cider vinegar in a small bowl. Season the mixture with salt and toss to coat the onions evenly. \n   - Allow the pickled onions to sit and marinate in the vinegar, tossing occasionally. This pickling process will mellow the sharpness of the onions and infuse them with a tangy flavor that complements the dish.\n\nBy preparing the bread and apple mixture and pickling the red onions, you'll be adding layers of flavor and texture to the final dish. Feel free to ask any questions or let me know when you're ready to proceed to the next step by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "can i use a different type of vinegar for pickling the red onions, or is apple cider vinegar essential for this step?"
+    },
+    {
+      "role": "chef",
+      "content": "For pickling the red onions in this recipe, apple cider vinegar provides a slightly sweet and fruity flavor that complements the dish well. However, if you don't have apple cider vinegar on hand, you can substitute it with other types of vinegar such as white wine vinegar, red wine vinegar, or even rice vinegar.\n\nEach type of vinegar will impart a slightly different flavor profile to the pickled onions, so feel free to choose one that suits your taste preferences or what you have available in your pantry. Just keep in mind that the flavor may vary slightly from the original recipe, but the pickled onions will still add a tangy element to the dish.\n\nWhenever you're ready to move on to the next step, just say 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will be preheating your oven to 425°F and preparing the chicken for roasting with a miso butter mixture. Here's a detailed explanation of the process:\n\n1. Preheat the Oven: Position the oven racks in the middle and lower thirds of the oven and preheat it to 425°F. This ensures even cooking and browning of the chicken and squash during roasting.\n\n2. Prepare Miso Butter: In a small bowl, mix 3 tablespoons of room-temperature butter with white miso paste until smooth. This miso butter mixture will add savory umami flavors to the chicken and enhance its overall taste.\n\n3. Season and Roast the Chicken:\n   - Pat the chicken dry with paper towels to remove any excess moisture.\n   - Rub or brush the chicken all over with the miso butter mixture, ensuring that it is evenly coated.\n   - Place the chicken in a large cast-iron skillet and roast it on the middle rack of the preheated oven.\n   - Roast the chicken until an instant-read thermometer inserted into the thickest part of the breast registers 155°F. This typically takes about 50-60 minutes. The internal temperature will continue to rise to 165°F while the chicken rests, ensuring it is fully cooked.\n\n4. Rest and Transfer: Allow the roasted chicken to rest in the skillet for at least 5 minutes. This resting period allows the juices to redistribute and results in a juicier and more flavorful chicken. After resting, transfer the chicken to a plate and reserve the skillet for later use in making gravy.\n\nBy following these steps, you'll create a succulent and flavorful miso-butter roast chicken. Feel free to ask any questions or let me know when you're ready to proceed by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "can i use a different type of butter for the miso butter mixture, or does it need to be room-temperature butter specifically?"
+    },
+    {
+      "role": "chef",
+      "content": "Using room-temperature butter is ideal for creating a smooth and easily spreadable miso butter mixture. Room-temperature butter blends more easily with the miso paste, resulting in a homogeneous mixture that can be applied evenly to the chicken.\n\nIf you only have cold butter on hand, you can bring it to room temperature by leaving it out at room temperature for a short time or gently microwaving it in short intervals until it softens slightly. However, avoid melting the butter completely, as a softened but still solid consistency is best for mixing with the miso paste.\n\nOnce you have the miso butter mixture ready and the chicken coated, you can proceed with roasting the chicken in the preheated oven. Let me know when you're ready to move on by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will continue roasting the acorn squash and bread mixture in the oven while the chicken is resting. Here's a detailed explanation of the process:\n\n1. Roast the Squash:\n   - Keep the acorn squash in the oven on the lower rack and continue roasting until it is mostly tender, which typically takes about 25 minutes. Roasting the squash enhances its natural sweetness and texture.\n\n2. Add Bread Mixture:\n   - Once the squash is mostly tender, remove the baking sheet from the oven. Scatter the reserved bread and apple mixture over the partially roasted squash wedges, spreading it into an even layer as much as possible.\n\n3. Return to Oven:\n   - Place the baking sheet back in the oven and continue roasting until the bread is golden brown and crisp, and the apples are tender. This usually takes about 15 minutes, allowing the flavors to meld together and the bread to develop a crunchy texture.\n\n4. Combine Ingredients:\n   - Remove the panzanella from the oven and drain the pickled onions. Toss the pickled onions with the roasted squash, bread, and apples to combine all the flavors.\n\n5. Transfer to Serving Dish:\n   - Once everything is well combined, transfer the roasted squash panzanella to a serving dish. The savory-sweet flavors of the squash, bread, apples, and pickled onions will create a delicious side dish to accompany the miso-butter roast chicken.\n\nBy following these steps, you'll have a beautifully roasted squash panzanella ready to serve alongside the roast chicken. Feel free to ask any questions or let me know when you're ready to proceed by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "can i use gluten-free bread for the bread mixture in this recipe?"
+    },
+    {
+      "role": "chef",
+      "content": "Yes, you can absolutely use gluten-free bread as a substitute for the bread in the mixture for this recipe. Gluten-free bread will work well in this dish and still provide the desired texture and flavor when combined with the apples and other ingredients in the panzanella. Just make sure to choose a sturdy gluten-free bread that can hold up well when combined with the other ingredients and roasted in the oven.\n\nFeel free to proceed when you're ready by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will be creating a mixture of flour and butter to use in making gravy for the dish. Here's a detailed explanation of the process:\n\n1. Combine Flour and Butter:\n   - In a small bowl, place the all-purpose flour and room-temperature unsalted butter.\n   - Using your fingers or a fork, mash and mix the flour and butter together until they form a smooth paste-like consistency. This mixture is known as a \"roux\" and will act as a thickening agent for the gravy.\n\n2. Ensure Proper Consistency:\n   - It's essential to thoroughly combine the flour and butter to create a smooth paste without any lumps. The consistency should be uniform to help thicken the gravy evenly.\n\n3. This roux mixture will play a crucial role in thickening and adding richness to the gravy, enhancing the overall flavor of the dish.\n\nOnce you have prepared the flour and butter mixture, you will use it in the next steps to create a delicious gravy to serve alongside the miso-butter roast chicken and acorn squash panzanella. Feel free to ask any questions or let me know when you're ready to proceed by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "can i use margarine instead of unsalted butter for the roux mixture?"
+    },
+    {
+      "role": "chef",
+      "content": "While margarine can be used as a substitute for unsalted butter in some recipes, it may not be the best option for making a roux mixture for gravy. Butter contains milk solids that contribute to the flavor and richness of the roux, which may be lacking in margarine.\n\nIf margarine is your preferred choice or dietary requirement, you can use it in place of unsalted butter in the roux mixture. However, keep in mind that the flavor and texture of the gravy may differ slightly from using butter. It's recommended to choose a margarine that closely resembles the consistency of butter for better results in the roux.\n\nOnce you've considered this information and are ready to proceed, please let me know by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this step, you will be making a flavorful gravy using the drippings from the roast chicken and a combination of wine, butter, flour, and broth. Here's a detailed explanation of the process:\n\n1. Prepare Skillet:\n   - Place the reserved skillet with the chicken drippings over medium heat. The drippings will add rich flavor to the gravy.\n\n2. Deglaze with Wine:\n   - Add the dry white wine to the skillet and cook, stirring often. The wine will help deglaze the pan, loosening any browned bits stuck to the bottom. This process adds depth of flavor to the gravy.\n\n3. Reduce Wine:\n   - Cook the wine until it is reduced by about half, approximately 2 minutes. The reduction process concentrates the flavors of the wine while allowing the alcohol to evaporate.\n\n4. Add Butter Mixture:\n   - Add the flour and butter mixture (roux) to the skillet. Stir continuously to create a smooth paste, which will help thicken the gravy.\n\n5. Incorporate Broth:\n   - Pour in the unsalted chicken broth and any remaining drippings. Stir constantly to combine all the ingredients and allow the gravy to thicken, which usually takes about 6-8 minutes.\n\n6. Finish with Miso:\n   - Remove the skillet from the heat and stir in the white miso paste. The miso adds savory umami notes to the gravy, enhancing its flavor profile.\n\n7. Season and Taste:\n   - Taste the gravy and season with salt and black pepper to adjust the seasoning to your preference. This step allows you to fine-tune the flavor before serving.\n\nBy following these steps, you'll create a rich and savory gravy to serve alongside the miso-butter roast chicken and acorn squash panzanella. Feel free to ask any questions or indicate when you're ready to proceed by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "can i substitute vegetable broth for the unsalted chicken broth in this gravy recipe?"
+    },
+    {
+      "role": "chef",
+      "content": "Yes, you can definitely substitute vegetable broth for unsalted chicken broth in this gravy recipe. Vegetable broth will provide a similar base flavor while keeping the gravy vegetarian-friendly. The vegetable broth will still contribute to the overall richness and depth of flavor in the gravy, ensuring a delicious final result. \n\nFeel free to proceed whenever you're ready by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "In this final step, you will bring everything together to serve a delicious meal. Here's a detailed explanation of how to serve the miso-butter roast chicken with gravy and acorn squash panzanella:\n\n1. Plating the Dish:\n   - Transfer the miso-butter roast chicken to a serving platter or individual plates.\n   - Spoon the flavorful gravy over the chicken, ensuring each portion is generously coated with the savory sauce.\n\n2. Serving the Panzanella:\n   - Place a generous portion of the roasted acorn squash panzanella alongside the chicken on the serving platter or individual plates.\n   - The combination of the tender squash, crispy bread, sweet apples, and tangy pickled onions will complement the rich flavors of the chicken and gravy.\n\n3. Garnishing (Optional):\n   - If desired, you can garnish the dish with additional fresh herbs such as chopped parsley or a sprinkle of black pepper for a finishing touch.\n\n4. Enjoying the Meal:\n   - Invite everyone to dig in and enjoy the delicious miso-butter roast chicken with gravy and the flavorful acorn squash panzanella. The combination of savory, sweet, and tangy flavors will make for a satisfying and memorable meal.\n\nOnce you have plated the meal and are ready to enjoy this delightful dish, go ahead and savor the fruits of your labor. If you have any more questions or need further assistance, feel free to ask. Just let me know when you're ready for any final advice or guidance!"
+    },
+    {
+      "role": "trainee",
+      "content": "what can i use as a substitute for acorn squash in the panzanella dish?"
+    },
+    {
+      "role": "chef",
+      "content": "If you're looking for a substitute for acorn squash in the panzanella dish, you can consider using other types of winter squash such as butternut squash, delicata squash, or kabocha squash. These squash varieties offer similar sweet and nutty flavors that can work well in the panzanella recipe. Just make sure to adjust the cooking time as needed based on the specific squash you choose to ensure it is roasted to perfection.\n\nFeel free to proceed when you're ready by saying 'next'!"
+    },
+    {
+      "role": "trainee",
+      "content": "next"
+    },
+    {
+      "role": "chef",
+      "content": "Congratulations on completing the preparation of the delicious Miso-Butter Roast Chicken with Acorn Squash Panzanella! You've successfully navigated through the recipe, from roasting the chicken with miso butter to creating a flavorful gravy and serving it alongside the savory panzanella. \n\nYour dedication and attention to detail have resulted in a mouthwatering meal that is sure to impress your taste buds. Enjoy the fruits of your labor and savor every bite of this delightful dish.\n\nIf you have any more questions, need further assistance, or would like to explore more recipes in the future, feel free to reach out. Happy cooking and bon appétit!"
+    }
+  ]
+}
