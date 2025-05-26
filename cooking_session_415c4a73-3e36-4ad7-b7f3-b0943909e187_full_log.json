@@ -1,0 +1,63 @@
+{
+  "job_id": "415c4a73-3e36-4ad7-b7f3-b0943909e187",
+  "conversation": [
+    {
+      "role": "chef",
+      "content": "Matching recipes: Miso-Butter Roast Chicken With Acorn Squash Panzanella, Italian Sausage and Bread Stuffing, Butternut Squash and Apple Soup, Caesar Salad Roast Chicken, Chicken and Rice With Leeks and Salsa Verde",
+      "timestamp": "2025-05-26T10:48:29.531926"
+    },
+    {
+      "role": "chef",
+      "content": "Required ingredients for Italian Sausage and Bread Stuffing:\n- 1 (¾- to 1-pound) round Italian loaf, cut into 1-inch cubes (8 cups)\n- 2 tablespoons olive oil, divided\n- 2 pounds sweet Italian sausage, casings removed, divided\n- 1 stick unsalted butter, cut into pieces\n- 3 medium onions, chopped\n- 4 large celery ribs, chopped\n- 5 garlic cloves, minced\n- 4 large eggs, lightly beaten\n- ¾ cup heavy cream, divided\n- ½ cup turkey giblet stock or reduced-sodium chicken broth\n- 1 cup grated Parmigiano-Reggiano (2 ounces)\n- ½ cup coarsely chopped flat-leaf parsley\n- 4-qt shallow ceramic or glass baking dish",
+      "timestamp": "2025-05-26T10:48:29.531938"
+    },
+    {
+      "role": "trainee",
+      "content": "Yes, I have all the ingredients ready to proceed.",
+      "timestamp": "2025-05-26T10:48:29.531942"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531945"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531948"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531950"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531953"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531955"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531957"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:48:29.531960"
+    }
+  ],
+  "metrics": {
+    "chef_total_tokens": 0,
+    "chef_total_cost": 0,
+    "trainee_total_tokens": 1806,
+    "trainee_total_cost": 0.0,
+    "overall_total_tokens": 1806,
+    "overall_total_cost": 0.0
+  }
+}

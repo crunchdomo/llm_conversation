@@ -1,0 +1,118 @@
+{
+  "job_id": "eaa937e9-7de7-47e3-81cb-b7a3c9f14d0c",
+  "conversation": [
+    {
+      "role": "chef",
+      "content": "Matching recipes: Miso-Butter Roast Chicken With Acorn Squash Panzanella, Italian Sausage and Bread Stuffing, Butternut Squash and Apple Soup, Caesar Salad Roast Chicken, Chicken and Rice With Leeks and Salsa Verde",
+      "timestamp": "2025-05-26T10:28:25.350673"
+    },
+    {
+      "role": "chef",
+      "content": "Required ingredients for Italian Sausage and Bread Stuffing:\n- 1 (¾- to 1-pound) round Italian loaf, cut into 1-inch cubes (8 cups)\n- 2 tablespoons olive oil, divided\n- 2 pounds sweet Italian sausage, casings removed, divided\n- 1 stick unsalted butter, cut into pieces\n- 3 medium onions, chopped\n- 4 large celery ribs, chopped\n- 5 garlic cloves, minced\n- 4 large eggs, lightly beaten\n- ¾ cup heavy cream, divided\n- ½ cup turkey giblet stock or reduced-sodium chicken broth\n- 1 cup grated Parmigiano-Reggiano (2 ounces)\n- ½ cup coarsely chopped flat-leaf parsley\n- 4-qt shallow ceramic or glass baking dish",
+      "timestamp": "2025-05-26T10:28:25.350686"
+    },
+    {
+      "role": "trainee",
+      "content": "Yes, I have all the ingredients ready to proceed.",
+      "timestamp": "2025-05-26T10:28:25.350691"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350693"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350695"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350698"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350700"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350702"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350704"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350706"
+    },
+    {
+      "role": "trainee",
+      "content": "next.",
+      "timestamp": "2025-05-26T10:28:25.350708"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350710"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350712"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350715"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350717"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350719"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350721"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350723"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350725"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350727"
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "timestamp": "2025-05-26T10:28:25.350730"
+    }
+  ],
+  "metrics": {
+    "chef_total_tokens": 0,
+    "chef_total_cost": 0,
+    "trainee_total_tokens": 5203,
+    "trainee_total_cost": 0.0,
+    "overall_total_tokens": 5203,
+    "overall_total_cost": 0.0
+  }
+}
