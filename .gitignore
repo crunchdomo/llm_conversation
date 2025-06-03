@@ -1,7 +1,8 @@
 .venv/
 dist/
 __pycache__/
-# Direnv
+# Environment variables
+.env
 .envrc
 # Neovim project-specific config
 .nvim.lua

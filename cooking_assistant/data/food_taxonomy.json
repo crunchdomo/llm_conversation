@@ -1,0 +1,79 @@
+{
+  "allergens": {
+    "dairy": {
+      "primary": ["milk", "cheese", "butter", "cream", "yogurt"],
+      "derivatives": ["whey", "casein", "lactose", "ghee"],
+      "hidden_sources": ["milk chocolate", "cream sauce", "milk powder"]
+    },
+    "gluten": {
+      "primary": ["wheat", "barley", "rye", "oats"],
+      "derivatives": ["flour", "bread", "pasta", "soy sauce"],
+      "hidden_sources": ["malt", "modified food starch", "some seasonings"]
+    },
+    "nuts": {
+      "tree_nuts": ["almonds", "walnuts", "pecans", "cashews", "pistachios"],
+      "peanuts": ["peanuts", "groundnuts"],
+      "derivatives": ["nut oils", "nut butter", "marzipan"]
+    },
+    "shellfish": {
+      "crustaceans": ["shrimp", "crab", "lobster", "crawfish"],
+      "mollusks": ["clams", "mussels", "oysters", "scallops"]
+    },
+    "eggs": {
+      "primary": ["eggs", "egg whites", "egg yolks"],
+      "derivatives": ["mayonnaise", "meringue", "custard"]
+    },
+    "soy": {
+      "primary": ["soybeans", "tofu", "tempeh"],
+      "derivatives": ["soy sauce", "miso", "edamame"]
+    },
+    "fish": {
+      "primary": ["salmon", "tuna", "cod", "mackerel"],
+      "derivatives": ["fish sauce", "anchovies", "worcestershire sauce"]
+    },
+    "sesame": {
+      "primary": ["sesame seeds", "tahini"],
+      "derivatives": ["sesame oil", "hummus"]
+    }
+  },
+  "cooking_methods": {
+    "dry_heat": ["baking", "roasting", "grilling", "broiling", "sautéing", "frying", "stir fry", "pan fry", "deep fry"],
+    "moist_heat": ["boiling", "steaming", "poaching", "braising", "stewing", "simmering"],
+    "combination": ["braising", "stewing", "pot roasting"]
+  },
+  "cuisine_types": {
+    "asian": ["chinese", "japanese", "thai", "korean", "vietnamese", "indian", "teriyaki", "soy sauce", "ginger", "miso", "curry", "coconut milk"],
+    "european": ["italian", "french", "german", "spanish", "greek", "pasta", "parmesan", "olive oil", "oregano", "feta"],
+    "american": ["southern", "tex-mex", "bbq", "cajun"],
+    "middle_eastern": ["mediterranean", "turkish", "lebanese", "moroccan", "tahini", "hummus", "za'atar"]
+  },
+  "dietary_restrictions": {
+    "vegetarian": {
+      "allowed": ["vegetables", "fruits", "grains", "dairy", "eggs"],
+      "forbidden": ["meat", "poultry", "fish", "seafood"]
+    },
+    "vegan": {
+      "allowed": ["vegetables", "fruits", "grains", "legumes"],
+      "forbidden": ["meat", "poultry", "fish", "seafood", "dairy", "eggs", "honey"]
+    },
+    "keto": {
+      "high": ["fats", "oils", "meat", "fish"],
+      "moderate": ["vegetables", "cheese"],
+      "avoid": ["grains", "sugar", "fruits", "starchy_vegetables"]
+    }
+  },
+  "nutritional_categories": {
+    "macronutrients": {
+      "proteins": ["meat", "fish", "eggs", "legumes", "dairy"],
+      "carbohydrates": ["grains", "fruits", "vegetables", "sugar"],
+      "fats": ["oils", "nuts", "avocado", "fatty_fish"]
+    },
+    "food_groups": {
+      "proteins": ["meat", "poultry", "fish", "eggs", "legumes", "nuts"],
+      "dairy": ["milk", "cheese", "yogurt"],
+      "grains": ["rice", "wheat", "oats", "quinoa"],
+      "vegetables": ["leafy_greens", "root_vegetables", "cruciferous"],
+      "fruits": ["citrus", "berries", "stone_fruits", "tropical"]
+    }
+  }
+}
