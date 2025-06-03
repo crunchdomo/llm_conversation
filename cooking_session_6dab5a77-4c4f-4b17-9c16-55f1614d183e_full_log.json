@@ -1,0 +1,235 @@
+{
+  "job_id": "6dab5a77-4c4f-4b17-9c16-55f1614d183e",
+  "conversation": [
+    {
+      "role": "chef",
+      "content": "Here are the ingredients you'll need for 'Scrambled Egg Pasta':\n- 4 eggs\n- 1/2 cup grated Parmesan\n- 8 slices thick bacon, chopped\n- 1 onion, chopped\n- 4 cups al-dente cooked pasta\n- Salt and pepper to taste\nDo you have all these ingredients ready? (yes/no)\nIf you want to substitute any ingredient, just tell me (e.g., 'Can I use turkey instead of chicken?').",
+      "chef_cumulative_tokens": 0,
+      "chef_cumulative_cost": 0,
+      "trainee_cumulative_tokens": 0,
+      "trainee_cumulative_cost": 0,
+      "overall_cumulative_tokens": 0,
+      "overall_cumulative_cost": 0
+    },
+    {
+      "role": "chef",
+      "content": "<recipe_analysis>\nIngredients involved: eggs and grated Parmesan cheese.\nEquipment: small bowl, whisk or fork.\nTechnique: beating eggs and cheese together.\nPotential challenges: ensuring the eggs and cheese are combined smoothly without over-beating.\nPresentation plan: explain how to beat eggs and cheese to create a uniform mixture, tips for texture, and setting it aside.\n</recipe_analysis>\n\nChefAI: Great! For step 1, you’ll need a small bowl and a whisk or fork. Crack the eggs into the bowl, then add the grated Parmesan cheese. Beat them together vigorously until the mixture is smooth and well combined—this helps to evenly distribute the cheese so it melts nicely during cooking. You want it just blended, not frothy, to keep a creamy texture in the final dish. Once combined, set the bowl aside for the moment. Are you comfortable with this step? Would you like tips on selecting the right Parmesan or how to beat the mixture efficiently?",
+      "chef_cumulative_tokens": 867,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 0,
+      "trainee_cumulative_cost": 0,
+      "overall_cumulative_tokens": 867,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "trainee",
+      "content": "since i am allergic to chicken and the recipe involves eggs and parmesan cheese, which are safe, and the instructions are clear, i have no questions.\n\nnext.",
+      "chef_cumulative_tokens": 867,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 375,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 1242,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "chef",
+      "content": "<recipe_analysis>\nStep 2 involves frying bacon and onions together in a large skillet.\nEquipment: large skillet or frying pan, spatula or wooden spoon.\nTechniques: frying, rendering bacon fat, caramelizing onions.\nPotential challenges: controlling heat to avoid burning, achieving crisp bacon and nicely caramelized onions.\nPresentation plan: explain how to start frying bacon gently to render fat, adding onions at the right time, stirring occasionally to caramelize evenly, and tips on judging doneness.\n\nSince you’re advanced, I’ll focus on nuances of temperature control and timing for the best texture and flavor.\n</recipe_analysis>\n\nChefAI: Perfect, let’s move on to step 2.\n\nHeat a large skillet over medium heat. Once hot, add the chopped bacon pieces. The goal here is to slowly render the fat from the bacon, which creates a flavorful base for the onions. Stir the bacon occasionally so it cooks evenly and starts to crisp up without burning.\n\nAfter the bacon has begun to brown and release fat—this usually takes about 5–7 minutes—add the chopped onion directly into the same skillet. Stir everything to combine. The onions will absorb some of the bacon fat, which helps them caramelize beautifully.\n\nKeep the heat at medium or slightly lower if the bacon or onion seems to be browning too quickly. Stir the mixture every few minutes so the onions cook evenly, soften, and develop that rich, golden-brown color.\n\nYou’ll want the bacon to be crispy but not burnt, and the onions to be soft, sweet, and starting to caramelize—this usually takes about 10–15 minutes total combined.\n\nDo you feel ready to proceed with this? Would you like tips on controlling pan temperature or how to tell when your onions are perfectly caramelized?",
+      "chef_cumulative_tokens": 2145,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 375,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 2520,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "trainee",
+      "content": "since i have a chicken allergy, i will substitute bacon with smoked turkey bacon to maintain that smoky, savory flavor and fat for cooking the onions.\n\nnext.",
+      "chef_cumulative_tokens": 2145,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 915,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 3060,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "chef",
+      "content": "<recipe_analysis>\nStep 3 involves adding cooked pasta to the skillet with the cooked bacon (or smoked turkey bacon) and onions.\n\nEquipment: large skillet already in use, spatula or tongs.\n\nTechniques: reheating pasta gently, tossing to combine.\n\nChallenges: avoid overcooking pasta when reheating, ensure even warming without drying or sticking, integrating pasta with flavorful bacon fat and onions.\n\nPlan: explain how to add pasta to skillet, toss gently to heat through without breaking it down, tips on timing and heat control to preserve texture.\n</recipe_analysis>\n\nChefAI: Great choice substituting smoked turkey bacon—it will keep that smoky, savory profile while being safe for your allergy.\n\nMoving on to step 3: Add the cooked pasta directly into the skillet with the bacon and caramelized onions. If your pasta is freshly made and warm, you just need to toss it gently to combine and warm through for about 1–2 minutes.\n\nIf you’re using cold, day-old pasta, it’s important to warm it carefully. Cook it in the skillet for about 1 minute, stirring frequently. This reheats the pasta evenly without making it mushy or drying it out.\n\nUse a spatula or tongs to toss the pasta with the flavorful bacon fat and onions, allowing the pasta to pick up the rich taste and aroma.\n\nAre you comfortable with how to warm and toss pasta in the pan? Would you like advice on specific pasta types that reheat best for this method?",
+      "chef_cumulative_tokens": 3759,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 915,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 4674,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "trainee",
+      "content": "next.",
+      "chef_cumulative_tokens": 3759,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 1368,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 5127,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "chef",
+      "content": "<recipe_analysis>\nStep 4 is the key step where the egg-and-cheese mixture is added to the hot pasta mixture to create a creamy, lightly cooked sauce.\n\nEquipment: skillet still on stovetop, spatula or wooden spoon.\n\nTechnique: gentle continuous stirring, low heat, tempering eggs to avoid scrambling.\n\nChallenges: controlling temperature to prevent the eggs from scrambling, ensuring a smooth, silky coating on the pasta. Since the user is advanced, I’ll emphasize temperature control nuances and stirring technique, as well as signs the mixture is nearing the right consistency.\n\nPlan: explain how to turn heat to low, slowly incorporate eggs, stir constantly and use residual heat to cook eggs gently, avoiding high heat or static cooking to prevent curdling.\n</recipe_analysis>\n\nChefAI: This is a critical step to get a silky, creamy coating without turning the eggs into scrambled bits.\n\nFirst, pour your egg-and-Parmesan mixture evenly over the pasta in the skillet. Immediately reduce the heat to low — this is essential to avoid cooking the eggs too quickly and forming curds.\n\nUsing a spatula or wooden spoon, stir continuously and gently but constantly, ensuring the eggs spread evenly and begin to thicken by the gentle heat of the pasta and skillet.\n\nYou’re essentially using the residual heat to slowly cook the eggs into a smooth, custard-like sauce that clings to the pasta.\n\nKeep stirring until you notice the mixture starting to thicken and lightly coat the strands but before any scrambled bits appear. This usually takes just a minute or two.\n\nIf you feel the eggs are cooking too fast or clumping, remove the skillet briefly from heat while you stir, then return it to very low warmth.\n\nDo you feel comfortable with controlling the heat and stirring technique in this step? Would you like suggestions on how to tell that the egg sauce is perfectly creamy?",
+      "chef_cumulative_tokens": 5767,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 1368,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 7135,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "chef_cumulative_tokens": 5767,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 1892,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 7659,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "chef",
+      "content": "<recipe_analysis>\nStep 5 focuses on final seasoning and plating.\n\nEquipment: salt and pepper grinder or shakers, serving plates or bowls.\n\nTechnique: final seasoning to taste, presentation tips.\n\nChallenges: balancing seasoning well, finishing with extra Parmesan for flavor and visual appeal.\n\nPlan: explain how to season carefully at the end, importance of tasting before adding salt because Parmesan is salty, guidance on plating and garnish with extra cheese.\n</recipe_analysis>\n\nChefAI: For the final step, season the pasta with salt and freshly ground black pepper to taste. Since Parmesan cheese already adds a salty, nutty flavor, it’s a good idea to taste your dish first before adding salt, so you don’t over-salt.\n\nOnce you’re happy with the seasoning, serve the pasta immediately on warm plates or bowls to keep it at its best texture and temperature.\n\nTo finish, offer extra grated Parmesan on the side. This lets each diner add more cheese to their liking and adds a nice presentation touch with a sprinkle of cheese on top.\n\nWould you like any tips on plating or suggestions for side dishes or wine pairings to complement this pasta? Or are you ready to wrap up?",
+      "chef_cumulative_tokens": 8005,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 1892,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 9897,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "trainee",
+      "content": "next",
+      "chef_cumulative_tokens": 8005,
+      "chef_cumulative_cost": 0.0,
+      "trainee_cumulative_tokens": 2279,
+      "trainee_cumulative_cost": 0.0,
+      "overall_cumulative_tokens": 10284,
+      "overall_cumulative_cost": 0.0
+    },
+    {
+      "role": "chef",
+      "content": "ChefAI: Congratulations on finishing your scrambled egg pasta! You’ve done a fantastic job bringing together those flavors and textures, especially with your thoughtful substitution of smoked turkey bacon. If you have any questions about serving, storing leftovers, or want ideas for your next cooking adventure, just let me know. Enjoy your meal!"
+    }
+  ],
+  "metrics": {
+    "chef_turns": [
+      {
+        "prompt_tokens": 674,
+        "completion_tokens": 193,
+        "total_tokens": 867,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:26:46.987227",
+        "prompt": "Step 1: 1. In a small bowl, beat together the eggs and cheese; set aside.\nExplain...",
+        "cumulative_tokens": 867,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 919,
+        "completion_tokens": 359,
+        "total_tokens": 1278,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:26:59.299750",
+        "prompt": "Step 2: 2. In a large skillet, fry the bacon and onion together until the meat is browned and crispy and the onion has begun to caramelize.\nExplain...",
+        "cumulative_tokens": 2145,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 1313,
+        "completion_tokens": 301,
+        "total_tokens": 1614,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:07.811977",
+        "prompt": "Step 3: 3. Add the pasta (if using cold day-old pasta, cook until it's just warmed through, about 1 minute).\nExplain...",
+        "cumulative_tokens": 3759,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 1635,
+        "completion_tokens": 373,
+        "total_tokens": 2008,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:16.181921",
+        "prompt": "Step 4: 4. Pour the egg-and-cheese mixture into the skillet and reduce heat to low. Stir continuously until the pasta is coated with the eggs and they have begun to solidify.\nExplain...",
+        "cumulative_tokens": 5767,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 2002,
+        "completion_tokens": 236,
+        "total_tokens": 2238,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:23.237313",
+        "prompt": "Step 5: 5. Season with the salt and pepper, then serve immediately, with extra grated Parmesan on the side.\nExplain...",
+        "cumulative_tokens": 8005,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 2227,
+        "completion_tokens": 63,
+        "total_tokens": 2290,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:26.353173",
+        "prompt": "Say cooking is complete and offer congratulations.",
+        "cumulative_tokens": 10295,
+        "cumulative_cost": 0.0
+      }
+    ],
+    "trainee_turns": [
+      {
+        "prompt_tokens": 343,
+        "completion_tokens": 32,
+        "total_tokens": 375,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:26:48.562478",
+        "prompt": "\n        You are a cooking trainee with experience level: {'experience_level': 'Advanced', 'preferred_cuisine': '', 'allergies': ['Chicken'], 'notes': ''}.\n        \n        Your goal is to act in accordance with your experience.\n\n        Last chef instruction: <recipe_analysis>\nIngredients involved: eggs and grated Parmesan cheese.\nEquipment: small bowl, whisk or fork.\nTechnique: beating eggs and cheese together.\nPotential challenges: ensuring the eggs and cheese are combined smoothly without over-beating.\nPresentation plan: explain how to beat eggs and cheese to create a uniform mixture, tips for texture, and setting it aside.\n</recipe_analysis>\n\nChefAI: Great! For step 1, you’ll need a small bowl and a whisk or fork. Crack the eggs into the bowl, then add the grated Parmesan cheese. Beat them together vigorously until the mixture is smooth and well combined—this helps to evenly distribute the cheese so it melts nicely during cooking. You want it just blended, not frothy, to keep a creamy texture in the final dish. Once combined, set the bowl aside for the moment. Are you comfortable with this step? Would you like tips on selecting the right Parmesan or how to beat the mixture efficiently?\n                \n        \n\n        INSTRUCTIONS:\n        - Substitute the main ingredient of the recipe \n        - If you are advanced, only ask about unclear or complex steps. If everything is clear, say 'next'.\n        - If you are a beginner, ask about anything you are unsure about.\n        If you have any doubt about the technique, ingredient, or process in this step, ask ONE SHORT, direct question. Otherwise, say 'next'.\n        ",
+        "cumulative_tokens": 375,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 509,
+        "completion_tokens": 31,
+        "total_tokens": 540,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:00.772221",
+        "prompt": "\n        You are a cooking trainee with experience level: {'experience_level': 'Advanced', 'preferred_cuisine': '', 'allergies': ['Chicken'], 'notes': ''}.\n        \n        Your goal is to act in accordance with your experience.\n\n        Last chef instruction: <recipe_analysis>\nStep 2 involves frying bacon and onions together in a large skillet.\nEquipment: large skillet or frying pan, spatula or wooden spoon.\nTechniques: frying, rendering bacon fat, caramelizing onions.\nPotential challenges: controlling heat to avoid burning, achieving crisp bacon and nicely caramelized onions.\nPresentation plan: explain how to start frying bacon gently to render fat, adding onions at the right time, stirring occasionally to caramelize evenly, and tips on judging doneness.\n\nSince you’re advanced, I’ll focus on nuances of temperature control and timing for the best texture and flavor.\n</recipe_analysis>\n\nChefAI: Perfect, let’s move on to step 2.\n\nHeat a large skillet over medium heat. Once hot, add the chopped bacon pieces. The goal here is to slowly render the fat from the bacon, which creates a flavorful base for the onions. Stir the bacon occasionally so it cooks evenly and starts to crisp up without burning.\n\nAfter the bacon has begun to brown and release fat—this usually takes about 5–7 minutes—add the chopped onion directly into the same skillet. Stir everything to combine. The onions will absorb some of the bacon fat, which helps them caramelize beautifully.\n\nKeep the heat at medium or slightly lower if the bacon or onion seems to be browning too quickly. Stir the mixture every few minutes so the onions cook evenly, soften, and develop that rich, golden-brown color.\n\nYou’ll want the bacon to be crispy but not burnt, and the onions to be soft, sweet, and starting to caramelize—this usually takes about 10–15 minutes total combined.\n\nDo you feel ready to proceed with this? Would you like tips on controlling pan temperature or how to tell when your onions are perfectly caramelized?\n                \n        \n\n        INSTRUCTIONS:\n        - Substitute the main ingredient of the recipe \n        - If you are advanced, only ask about unclear or complex steps. If everything is clear, say 'next'.\n        - If you are a beginner, ask about anything you are unsure about.\n        If you have any doubt about the technique, ingredient, or process in this step, ask ONE SHORT, direct question. Otherwise, say 'next'.\n        ",
+        "cumulative_tokens": 915,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 451,
+        "completion_tokens": 2,
+        "total_tokens": 453,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:08.812214",
+        "prompt": "\n        You are a cooking trainee with experience level: {'experience_level': 'Advanced', 'preferred_cuisine': '', 'allergies': ['Chicken'], 'notes': ''}.\n        \n        Your goal is to act in accordance with your experience.\n\n        Last chef instruction: <recipe_analysis>\nStep 3 involves adding cooked pasta to the skillet with the cooked bacon (or smoked turkey bacon) and onions.\n\nEquipment: large skillet already in use, spatula or tongs.\n\nTechniques: reheating pasta gently, tossing to combine.\n\nChallenges: avoid overcooking pasta when reheating, ensure even warming without drying or sticking, integrating pasta with flavorful bacon fat and onions.\n\nPlan: explain how to add pasta to skillet, toss gently to heat through without breaking it down, tips on timing and heat control to preserve texture.\n</recipe_analysis>\n\nChefAI: Great choice substituting smoked turkey bacon—it will keep that smoky, savory profile while being safe for your allergy.\n\nMoving on to step 3: Add the cooked pasta directly into the skillet with the bacon and caramelized onions. If your pasta is freshly made and warm, you just need to toss it gently to combine and warm through for about 1–2 minutes.\n\nIf you’re using cold, day-old pasta, it’s important to warm it carefully. Cook it in the skillet for about 1 minute, stirring frequently. This reheats the pasta evenly without making it mushy or drying it out.\n\nUse a spatula or tongs to toss the pasta with the flavorful bacon fat and onions, allowing the pasta to pick up the rich taste and aroma.\n\nAre you comfortable with how to warm and toss pasta in the pan? Would you like advice on specific pasta types that reheat best for this method?\n                \n        \n\n        INSTRUCTIONS:\n        - Substitute the main ingredient of the recipe \n        - If you are advanced, only ask about unclear or complex steps. If everything is clear, say 'next'.\n        - If you are a beginner, ask about anything you are unsure about.\n        If you have any doubt about the technique, ingredient, or process in this step, ask ONE SHORT, direct question. Otherwise, say 'next'.\n        ",
+        "cumulative_tokens": 1368,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 523,
+        "completion_tokens": 1,
+        "total_tokens": 524,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:16.974821",
+        "prompt": "\n        You are a cooking trainee with experience level: {'experience_level': 'Advanced', 'preferred_cuisine': '', 'allergies': ['Chicken'], 'notes': ''}.\n        \n        Your goal is to act in accordance with your experience.\n\n        Last chef instruction: <recipe_analysis>\nStep 4 is the key step where the egg-and-cheese mixture is added to the hot pasta mixture to create a creamy, lightly cooked sauce.\n\nEquipment: skillet still on stovetop, spatula or wooden spoon.\n\nTechnique: gentle continuous stirring, low heat, tempering eggs to avoid scrambling.\n\nChallenges: controlling temperature to prevent the eggs from scrambling, ensuring a smooth, silky coating on the pasta. Since the user is advanced, I’ll emphasize temperature control nuances and stirring technique, as well as signs the mixture is nearing the right consistency.\n\nPlan: explain how to turn heat to low, slowly incorporate eggs, stir constantly and use residual heat to cook eggs gently, avoiding high heat or static cooking to prevent curdling.\n</recipe_analysis>\n\nChefAI: This is a critical step to get a silky, creamy coating without turning the eggs into scrambled bits.\n\nFirst, pour your egg-and-Parmesan mixture evenly over the pasta in the skillet. Immediately reduce the heat to low — this is essential to avoid cooking the eggs too quickly and forming curds.\n\nUsing a spatula or wooden spoon, stir continuously and gently but constantly, ensuring the eggs spread evenly and begin to thicken by the gentle heat of the pasta and skillet.\n\nYou’re essentially using the residual heat to slowly cook the eggs into a smooth, custard-like sauce that clings to the pasta.\n\nKeep stirring until you notice the mixture starting to thicken and lightly coat the strands but before any scrambled bits appear. This usually takes just a minute or two.\n\nIf you feel the eggs are cooking too fast or clumping, remove the skillet briefly from heat while you stir, then return it to very low warmth.\n\nDo you feel comfortable with controlling the heat and stirring technique in this step? Would you like suggestions on how to tell that the egg sauce is perfectly creamy?\n                \n        \n\n        INSTRUCTIONS:\n        - Substitute the main ingredient of the recipe \n        - If you are advanced, only ask about unclear or complex steps. If everything is clear, say 'next'.\n        - If you are a beginner, ask about anything you are unsure about.\n        If you have any doubt about the technique, ingredient, or process in this step, ask ONE SHORT, direct question. Otherwise, say 'next'.\n        ",
+        "cumulative_tokens": 1892,
+        "cumulative_cost": 0.0
+      },
+      {
+        "prompt_tokens": 386,
+        "completion_tokens": 1,
+        "total_tokens": 387,
+        "cost": 0.0,
+        "timestamp": "2025-06-03T08:27:23.830840",
+        "prompt": "\n        You are a cooking trainee with experience level: {'experience_level': 'Advanced', 'preferred_cuisine': '', 'allergies': ['Chicken'], 'notes': ''}.\n        \n        Your goal is to act in accordance with your experience.\n\n        Last chef instruction: <recipe_analysis>\nStep 5 focuses on final seasoning and plating.\n\nEquipment: salt and pepper grinder or shakers, serving plates or bowls.\n\nTechnique: final seasoning to taste, presentation tips.\n\nChallenges: balancing seasoning well, finishing with extra Parmesan for flavor and visual appeal.\n\nPlan: explain how to season carefully at the end, importance of tasting before adding salt because Parmesan is salty, guidance on plating and garnish with extra cheese.\n</recipe_analysis>\n\nChefAI: For the final step, season the pasta with salt and freshly ground black pepper to taste. Since Parmesan cheese already adds a salty, nutty flavor, it’s a good idea to taste your dish first before adding salt, so you don’t over-salt.\n\nOnce you’re happy with the seasoning, serve the pasta immediately on warm plates or bowls to keep it at its best texture and temperature.\n\nTo finish, offer extra grated Parmesan on the side. This lets each diner add more cheese to their liking and adds a nice presentation touch with a sprinkle of cheese on top.\n\nWould you like any tips on plating or suggestions for side dishes or wine pairings to complement this pasta? Or are you ready to wrap up?\n                \n        \n\n        INSTRUCTIONS:\n        - Substitute the main ingredient of the recipe \n        - If you are advanced, only ask about unclear or complex steps. If everything is clear, say 'next'.\n        - If you are a beginner, ask about anything you are unsure about.\n        If you have any doubt about the technique, ingredient, or process in this step, ask ONE SHORT, direct question. Otherwise, say 'next'.\n        ",
+        "cumulative_tokens": 2279,
+        "cumulative_cost": 0.0
+      }
+    ]
+  }
+}
